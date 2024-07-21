@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+BE+VLG:wght@100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+BE+VLG:wght@100..400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+body{
+    background-image: url(https://media.cntraveler.com/photos/5f84939a5f9755e5951db3f4/16:9/w_1600,c_limit/WhitefishMountainResort-3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family:"Playwrite BE VLG", cursive;
+}
+
+.container{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login{
+    gap: 10px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+}
+
+input{
+    width: 150px;
+    text-align: center;
+    border: 1px solid;
+    border-radius: 20px;
+    padding: 10px;
+    outline: none;
+}
+
+button{
+    width: 90px;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 20px ;
+    background-color: white;
+    color: black;
+    font-family:"Playwrite BE VLG", cursive;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: skyblue;
+}
